@@ -23,6 +23,6 @@ The files used to write the run_analysis.R script is taken from
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The all the related information can be found in this site below
+All the related information can be found in this site below
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
