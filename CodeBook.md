@@ -7,7 +7,7 @@
 
 ## Average calculated of the below variables that give a mean of standarddeviation for the different activities and then by subjects.
 
-The previous data information is available in the link of the Readme.md file of this repo. once the file is unzipped, the previous dataset description as well as additional variables are available other than mean and standard deviation.
+Note: The previous data information is available in the link of the Readme.md file of this repo. once the file is unzipped, the previous dataset description as well as additional variables are available other than mean and standard deviation.
 
 "TimeDomain_Bodyaccelerometerelerometer_Mean_X"                                       
 "TimeDomain_Bodyaccelerometerelerometer_Mean_Y"                                       
