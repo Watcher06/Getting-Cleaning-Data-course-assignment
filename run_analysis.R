@@ -51,13 +51,15 @@ sub_data<-alldata[,c(select_mean_std)]
 
 #the sub_data has columns with meanFreq as well, not clear if assignment requires these columns as well.
 #therefore removed meanFreq
+
 View(sub_data)
 dim(sub_data)
 rmmeanFreq<-grep('meanFreq',names(sub_data))
 newsubdata<-sub_data[,-(rmmeanFreq)]
 dim(newsubdata)
 
-#Part3 - Uses descriptive activity names to name the activities in the data set (Used the dataset with meansFreq)
+#Part3 - Uses descriptive activity names to name the activities in the data set 
+#(Used the dataset with meansFreq)
 activitylabel<-read.table('./UCI HAR Dataset/activity_labels.txt', header = FALSE)
 activitylabel<-as.character(activitylabel[,2])
 sub1<-alldata[,c(1:2)]
