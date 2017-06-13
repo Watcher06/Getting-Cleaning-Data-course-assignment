@@ -12,6 +12,7 @@ The R script, `run_analysis.R`, does the following:
    variable for each activity and subject pair.
 
 The end result is shown in the file `tidydata.txt`.
+The CodeBook.md contains information about the variables and the data that has been transformed in tidydata.txt. The previous Codebook and dataset has been taken from below links
 
 # The description and source of data
 
