@@ -24,7 +24,7 @@ features<-as.character(features[,2])
 #Train Data, three files are read and joined to get a dataframe
 traindataX<-read.table('./UCI HAR Dataset/train/X_train.txt')
 traindataY<-read.csv('./UCI HAR Dataset/train/Y_train.txt',header=FALSE,sep=' ')
-traindatasubject<-read.csv('.UCI HAR Dataset/train/subject_train.txt',header=FALSE,sep=' ')
+traindatasubject<-read.csv('./UCI HAR Dataset/train/subject_train.txt',header=FALSE,sep=' ')
 
 traindata<-data.frame(traindatasubject,traindataY,traindataX)
 names(traindata)<-c(c('subject','activity'),features)
