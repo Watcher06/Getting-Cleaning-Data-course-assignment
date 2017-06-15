@@ -5,9 +5,9 @@
 * `subject` - The ID of the test subject - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 * `activity` - The type of activity performed when the corresponding measurements were taken (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
-## Average calculated of the below variables that give a mean of standarddeviation for the different activities and then by subjects.
+## Average calculated of the below variables that give an average of the mean and standarddeviation for the different activities and then by subjects.
 
-Note: The previous data information is available in the link of the Readme.md file of this repo. once the file is unzipped, the previous dataset description as well as additional variables are available other than mean and standard deviation.
+Note: The previous data information is available in the link of the Readme.md file of this repo. once the file is unzipped, the previous dataset description as well as additional variables are available other than the new average calculated of the mean and standard deviation.
 
 "TimeDomain_Bodyaccelerometerelerometer_Mean_X"                                       
 "TimeDomain_Bodyaccelerometerelerometer_Mean_Y"                                       
